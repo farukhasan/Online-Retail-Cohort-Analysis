@@ -86,27 +86,40 @@ retail_clean <- data %>%
 
 Retention Heatmap: 
 
+![Retention Heatmap](./images/CRC.png)
+
 A heatmap showing the percentage of customers retained over time for each cohort, with green (100% retention) transitioning to red (low retention, e.g., 25%). The x-axis represents months since the first purchase, and the y-axis lists cohort periods (e.g., 2009-12 to 2010-12), with text labels indicating exact retention percentages.
 
 Revenue Heatmap: 
+
+![Revenue Heatmap](./images/RCC.png)
 
 A heatmap displaying the average revenue per customer in GBP, with orange shades indicating higher revenue (up to $800) and lighter shades showing lower revenue. The x-axis denotes months since the first purchase, and the y-axis lists cohort periods, with text labels showing revenue values.
 
 
 Churn Heatmap (Cumulative):
+
+![Cumulative Churn Heatmap](./images/CCRC.png)
+
 A heatmap illustrating cumulative churn rates, with green (0% churn) transitioning to red (100% churn). The x-axis represents month numbers, the y-axis lists cohort first purchase months, and text labels display exact churn percentages.
 
 Period-over-Period Churn Heatmap: 
+
+![Period-over-Period Churn](./images/PPCRC.png)
 
 A heatmap mapping churn rates between consecutive months, with green (negative churn, e.g., -27.3%) to red (high churn) color coding. The x-axis shows month numbers, the y-axis lists cohort periods, and text labels indicate period churn rates.
 
 
 Churn Trend Line: 
 
+![Churn Trend Line](./images/ACRTAAC.png)
+
 A red line graph plotting the average churn rate across all cohorts over time, with dark red data points labeled by percentage (e.g., 77.8% at Month 1). The x-axis represents month numbers, and the y-axis shows the average churn rate.
 
 
 Cohort Size Distribution:  
+
+![Cohort Size Distribution](./images/CSOT.png)
 
 A bar chart with steel blue bars representing the number of customers per cohort, peaking at 955 in December 2009. The x-axis lists cohort months, the y-axis shows the number of customers, and text labels display exact counts.
 
