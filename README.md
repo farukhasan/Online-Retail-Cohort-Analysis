@@ -8,7 +8,6 @@ A detailed cohort analysis of the Online Retail II dataset (UCI ML Repository) f
 
 [![R](https://img.shields.io/badge/R-4.0+-blue.svg)](https://www.r-project.org/)
 [![ggplot2](https://img.shields.io/badge/ggplot2-visualization-green.svg)](https://ggplot2.tidyverse.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Project Overview
 
